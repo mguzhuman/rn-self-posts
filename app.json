@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.brainreign.self-blog-react-native-app",
+      "buildNumber": "1.0.0"
     },
     "android": {
-
+      "package": "com.brainreign.self_blog_react_native_app",
+      "versionCode": 1,
+      "permissions": ["CAMERA","WRITE_EXTERNAL_STORAGE"]
     }
   }
 }
